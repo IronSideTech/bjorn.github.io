@@ -1,0 +1,327 @@
+// Colors, box-shadow, default radial
+$water: #42a1ff;                                          
+$electric: #fecc33;
+$psychic: #ff66a3;
+$grass: #78cc55;
+$fire: #ff6f52;
+$ghost: #9995d0;
+$steel: #abaabb; 
+$ice: #66ccfe; 
+$ground: #dfba52; 
+$rock: #baaa66;
+$poison: #c68bb7;
+$flying: #8899ff; 
+$bug: #aabb23;
+$normal: #b7b7aa; 
+$dragon: #9e93f1;
+$fairy: #ed99ed;
+$fighting: #d3887e;
+$dark: #b59682;
+$box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+$default-radial: radial-gradient(at top left, #343a40, black);
+// Radial Background Classes
+.water-radial {
+    background: radial-gradient(at top left, $water, black);
+    box-shadow: $box-shadow;
+}
+
+.electric-radial {
+    background: radial-gradient(at top left, $electric, black);
+    box-shadow: $box-shadow;
+}
+
+.psychic-radial {
+    background: radial-gradient(at top left, $psychic, black);
+    box-shadow: $box-shadow;
+}
+
+.grass-radial {
+    background: radial-gradient(at top left, $grass, black);
+    box-shadow: $box-shadow;
+}
+
+.fire-radial {
+    background: radial-gradient(at top left, $fire, black);
+    box-shadow: $box-shadow;
+}
+
+.ghost-radial {
+    background: radial-gradient(at top left, $ghost, black);
+    box-shadow: $box-shadow;
+}
+
+.steel-radial {
+    background: radial-gradient(at top left, $steel, black);
+    box-shadow: $box-shadow;
+}
+
+.ice-radial {
+    background: radial-gradient(at top left, $ice, black);
+    box-shadow: $box-shadow;
+}
+
+.ground-radial {
+    background: radial-gradient(at top left, $ground, black);
+    box-shadow: $box-shadow;
+}
+
+.rock-radial {
+    background: radial-gradient(at top left, $rock, black);
+    box-shadow: $box-shadow;
+}
+
+.poison-radial {
+    background: radial-gradient(at top left, $poison, black);
+    box-shadow: $box-shadow;
+}
+
+.flying-radial {
+    background: radial-gradient(at top left, $flying, black);
+    box-shadow: $box-shadow;
+}
+
+.bug-radial {
+    background: radial-gradient(at top left, $bug, black);
+    box-shadow: $box-shadow;
+}
+
+.normal-radial {
+    background: radial-gradient(at top left, $normal, black);
+    box-shadow: $box-shadow;
+}
+
+.fairy-radial {
+    background: radial-gradient(at top left, $fairy, black);
+    box-shadow: $box-shadow;
+}
+
+.dragon-radial {
+    background: radial-gradient(at top left, $dragon, black);
+    box-shadow: $box-shadow;
+}
+
+.fighting-radial {
+    background: radial-gradient(at top left, $fighting, black);
+    box-shadow: $box-shadow;
+}
+
+.dark-radial {
+    background: radial-gradient(at top left, $dark, black);
+    box-shadow: $box-shadow;
+}
+// Utility Classes
+.type-span {
+    display: block;
+    width: 80px;
+    font-size: 0.8rem;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    color: #fff;
+}
+.type {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.display-none-radial {
+    display: none;
+}
+// Buttons
+#load-more {
+    display: block;
+    margin: 40px auto;
+    box-shadow: $box-shadow;
+    border-radius: 5px;
+    background: $default-radial;
+}
+#next-previous-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+#next, #previous {
+    box-shadow: $box-shadow;
+    border-radius: 5px;
+    margin: 20px 25px;
+    background: $default-radial;
+}  
+
+#close-pop-up-window-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    box-shadow: $box-shadow;
+    background: $default-radial;
+}
+#search-button {
+    background-color: black;
+    height: 100%;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+// Header
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    background: radial-gradient(at top left, $ghost, black);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: $box-shadow;
+    img {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+        cursor: default;
+    }
+
+    h1 {
+        color: black;
+    }
+    form {
+        text-align: center;
+        #input-wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px auto 20px auto;
+            width: 40%;
+            box-shadow: $box-shadow;
+            border-radius: 5px;
+            border: none;
+            background: $default-radial;
+        input {
+            background: $default-radial;
+            width: 100%;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        input:focus {
+            outline: none;
+            }
+        }
+    }
+}
+// Body
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+}
+#output {
+    width: 95%;
+    margin: 240px auto 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+}
+.pokemon-tile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: $box-shadow;
+    border-radius: 5px;
+    padding: 15px;
+    color: #fff;
+    img {
+        cursor: pointer;
+    }
+}
+// Pop-up window
+#pop-up-window {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+    z-index: 1;
+    #pop-up-window-content {
+        background: $default-radial;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        color: #fff;
+        #sprite {
+            display: block;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto; 
+            cursor: pointer;
+        }
+        #pokemon-name {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.5rem;
+            p {
+                margin: 20px 10px;
+            }
+
+        }
+    }
+    #pop-up-window-content-bottom {
+        #about-wrapper {
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        #stats-wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px auto;
+            border-radius: 5px;
+            width: 60%;
+            flex-wrap: wrap;
+                #height, #weight, #ability {
+                    text-align: center;
+                    flex: 32%;
+                    border-radius: 5px;
+                    padding: 20px;
+                    margin: 5px;
+                    background: $default-radial;
+                    box-shadow: $box-shadow;
+                    p {
+                        margin: 10px;
+                        font-size: 1.2rem
+                    }
+                }
+            }
+        #stats-window {
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+            flex: 100%;
+            border-radius: 5px;
+            div {
+                width: 100%;
+                border-radius: 5px;
+                background: $default-radial;
+                margin-bottom: 10px;
+                box-shadow: $box-shadow;
+                padding: 20px;
+                p {
+                    text-align: center;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,305 @@
+.water-radial {
+  background: radial-gradient(at top left, #42a1ff, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.electric-radial {
+  background: radial-gradient(at top left, #fecc33, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.psychic-radial {
+  background: radial-gradient(at top left, #ff66a3, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.grass-radial {
+  background: radial-gradient(at top left, #78cc55, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.fire-radial {
+  background: radial-gradient(at top left, #ff6f52, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.ghost-radial {
+  background: radial-gradient(at top left, #9995d0, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.steel-radial {
+  background: radial-gradient(at top left, #abaabb, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.ice-radial {
+  background: radial-gradient(at top left, #66ccfe, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.ground-radial {
+  background: radial-gradient(at top left, #dfba52, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.rock-radial {
+  background: radial-gradient(at top left, #baaa66, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.poison-radial {
+  background: radial-gradient(at top left, #c68bb7, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.flying-radial {
+  background: radial-gradient(at top left, #8899ff, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.bug-radial {
+  background: radial-gradient(at top left, #aabb23, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.normal-radial {
+  background: radial-gradient(at top left, #b7b7aa, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.fairy-radial {
+  background: radial-gradient(at top left, #ed99ed, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.dragon-radial {
+  background: radial-gradient(at top left, #9e93f1, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.fighting-radial {
+  background: radial-gradient(at top left, #d3887e, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.dark-radial {
+  background: radial-gradient(at top left, #b59682, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.type-span {
+  display: block;
+  width: 80px;
+  font-size: 0.8rem;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.display-none-radial {
+  display: none;
+}
+
+#load-more {
+  display: block;
+  margin: 40px auto;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background: radial-gradient(at top left, #343a40, black);
+}
+
+#next-previous-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#next, #previous {
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 20px 25px;
+  background: radial-gradient(at top left, #343a40, black);
+}
+
+#close-pop-up-window-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  background: radial-gradient(at top left, #343a40, black);
+}
+
+#search-button {
+  background-color: black;
+  height: 100%;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+  background: radial-gradient(at top left, #9995d0, black);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+header img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  cursor: default;
+}
+header h1 {
+  color: black;
+}
+header form {
+  text-align: center;
+}
+header form #input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto 20px auto;
+  width: 40%;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border: none;
+  background: radial-gradient(at top left, #343a40, black);
+}
+header form #input-wrapper input {
+  background: radial-gradient(at top left, #343a40, black);
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+header form #input-wrapper input:focus {
+  outline: none;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#output {
+  width: 95%;
+  margin: 240px auto 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+}
+
+.pokemon-tile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+}
+.pokemon-tile img {
+  cursor: pointer;
+}
+
+#pop-up-window {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  z-index: 1;
+}
+#pop-up-window #pop-up-window-content {
+  background: radial-gradient(at top left, #343a40, black);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  color: #fff;
+}
+#pop-up-window #pop-up-window-content #sprite {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#pop-up-window #pop-up-window-content #pokemon-name {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+#pop-up-window #pop-up-window-content #pokemon-name p {
+  margin: 20px 10px;
+}
+#pop-up-window #pop-up-window-content-bottom #about-wrapper {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#pop-up-window #pop-up-window-content-bottom #stats-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  border-radius: 5px;
+  width: 60%;
+  flex-wrap: wrap;
+}
+#pop-up-window #pop-up-window-content-bottom #stats-wrapper #height, #pop-up-window #pop-up-window-content-bottom #stats-wrapper #weight, #pop-up-window #pop-up-window-content-bottom #stats-wrapper #ability {
+  text-align: center;
+  flex: 32%;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 5px;
+  background: radial-gradient(at top left, #343a40, black);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+#pop-up-window #pop-up-window-content-bottom #stats-wrapper #height p, #pop-up-window #pop-up-window-content-bottom #stats-wrapper #weight p, #pop-up-window #pop-up-window-content-bottom #stats-wrapper #ability p {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+#pop-up-window #pop-up-window-content-bottom #stats-window {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  flex: 100%;
+  border-radius: 5px;
+}
+#pop-up-window #pop-up-window-content-bottom #stats-window div {
+  width: 100%;
+  border-radius: 5px;
+  background: radial-gradient(at top left, #343a40, black);
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+#pop-up-window #pop-up-window-content-bottom #stats-window div p {
+  text-align: center;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=pokedex.css.map */
